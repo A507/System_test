@@ -280,6 +280,33 @@
             $("#div_denglu").mouseleave(function() {
                 $("#div_denglu").css("background-image", "url(image/login1_001.jpg)");
             });
+            $("#div_tijiao").mouseenter(function(){
+                $("#div_tijiao").css("background-color","#478db1");
+            });
+            $("#div_tijiao1").mouseenter(function(){
+                $("#div_tijiao1").css("background-color","#478db1");
+            });
+            $("#div_tijiao").mouseleave(function(){
+                $("#div_tijiao").css("background-color","#36abe7");
+            });
+            $("#div_tijiao1").mouseleave(function(){
+                $("#div_tijiao1").css("background-color","#36abe7");
+            });
+            $("#tongyi").click(function(){
+                $("#tongyi").css("background-color","#36abe7");
+            });
+            $("#chexiao1").mouseenter(function(){
+                $("#chexiao1").css("background-color","#478db1");
+            });
+            $("#chexiao1").mouseleave(function(){
+                $("#chexiao1").css("background-color","#36abe7");
+            });
+            $("#x1").mouseleave(function(){
+                $("#x1").css("background-image","url(image/xiangqing1_001.jpg)");
+            });
+            $("#x1").mouseenter(function(){
+                $("#x1").css("background-image","url(image/xiangqing2_001.jpg)");
+            });
             
             
             //跳转页面
@@ -327,7 +354,7 @@
         </div>
         <div id="content100">
             <div id="div_tijiao">提交</div>
-            <div class="div_tijiao">我已阅读提案建议要求</div>
+            <div id="tongyi" class="div_tijiao">我已阅读提案建议要求</div>
             <div id="div_tijiao1">保存</div>
         </div>
         <div id="div_gap1"></div>
@@ -341,7 +368,7 @@
             <div class="div_shijian">2017-1-2</div>
             <div class="biaoti">这个是标题</div>
             <div id="x1" class="xiangqing"></div>
-            <div class="chexiao">撤销</div>
+            <div id="chexiao1" class="chexiao">撤销</div>
         </div>
     </div>
 </body>

@@ -420,14 +420,48 @@
             $("#div_denglu").mouseleave(function() {
                 $("#div_denglu").css("background-image", "url(image/login1_001.jpg)");
             });
-            
+
             $("#div_int").mouseenter(function() {
                 $("#div_int").css("background-color", "#468eb1");
             });
             $("#div_int").mouseleave(function() {
                 $("#div_int").css("background-color", "#36abe7");
             });
-            
+
+
+            //跳转页面
+            $("#div_denglu").click(function() {
+                location.href = "../login/login.html";
+            });
+            $("#div_zhuce").click(function() {
+                location.href = "../register/register.html";
+            });
+            $("#man").click(function() {
+                location.href = "../xinxiweihu/xinxiweihu.html";
+            });
+            $("#wo").click(function() {
+                location.href = "../xinxiweihu/xinxiweihu.html";
+            });
+            $("#div_shouye").click(function(){
+                location.href="../index/index.html";
+            });
+            $("#div_wengaoguanli").click(function(){
+                location.href="../tian/tian.html";
+            });
+
+            //评论点击，复议点击
+            $("#div_fandui3").click(function() {
+                $("#div_fandui3").css("background-image", "url(image/fandui1_001.jpg)");
+                var x = $("#fandui_1").html();
+                x++;
+                $("#fandui_1").html(x);
+            });
+            $("#div_fuyi").click(function() {
+                $("#div_fuyi").css("background-image", "url(image/fuyi1_001.jpg)");
+                var x = $("#fuyi_1").html();
+                x++;
+                $("#fuyi_1").html(x);
+            });
         });
     </script>
 
@@ -465,13 +499,13 @@
         </div>
         <div id="div1">
             <div id="div_fandui3">
-                <div class="div2">200</div>
+                <div id="fandui_1" class="div2">200</div>
             </div>
             <div id="div_fuyi">
-                <div class="div2">220</div>
+                <div id="fuyi_1" class="div2">220</div>
             </div>
             <div id="div_pinglun2">
-                <div class="div2">222</div>
+                <div id="pinglun_1" class="div2">222</div>
             </div>
         </div>
         <div id="div3"></div>

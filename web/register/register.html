@@ -218,6 +218,14 @@
                     $("input[name='zhuanweihui']").val("");
                 }
             });
+            $("#input8").focus(function() {
+                var str = $("#input8").css("color");
+                if (str == "rgb(204, 204, 204)") {
+                    $("#input8").css("color", "#000000");
+                    $("input[name='mima']").val("");
+                    $("#input8").attr("type","password");
+                }
+            });
 
 
             $("#input1").blur(function() {
@@ -262,6 +270,13 @@
                 if ($("input[name='zhuanweihui']").val() == "") {
                     $("input[name='zhuanweihui']").val("专委会");
                     $("#input7").css("color", "#cccccc");
+                }
+            });
+            $("#input8").blur(function() {
+                if ($("input[name='mima']").val() == "") {
+                    $("input[name='mima']").val("密码");
+                    $("#input8").css("color", "#cccccc");
+                    $("#input8").attr("type","text");
                 }
             });
             //性别菜单状态
@@ -364,6 +379,10 @@
                 <p>*</p>
             </div>
             <input id="input7" name="zhuanweihui" value="专委会" class="input" type="text" />
+            <div class="div_xing">
+                <p>*</p>
+            </div>
+            <input id="input8" name="mima" value="密码" class="input" type="text" />
             <div class="div_xing">
                 <p>*</p>
             </div>

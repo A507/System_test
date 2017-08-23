@@ -175,7 +175,43 @@
 </head>
 
 <body>
-
+    <script type="text/javascript">
+        $(function(){
+            $("#div_zhuce").mouseenter(function() {
+                $("#div_zhuce").css("background-image", "url(image/zhuce2_001.jpg)");
+            });
+            $("#div_zhuce").mouseleave(function() {
+                $("#div_zhuce").css("background-image", "url(image/zhuce1_001.jpg)");
+            });
+            $("#div_denglu").mouseenter(function() {
+                $("#div_denglu").css("background-image", "url(image/login2_001.jpg)");
+            });
+            $("#div_denglu").mouseleave(function() {
+                $("#div_denglu").css("background-image", "url(image/login1_001.jpg)");
+            });
+            $("#baocun").mouseenter(function(){
+                $("#baocun").css("background-color","#478db1");
+            });
+            $("#baocun").mouseleave(function(){
+                $("#baocun").css("background-color","#00a9ff");
+            });
+            
+            
+            //跳转页面
+            $("#div_denglu").click(function(){
+                location.href="../login/login.html";
+            });
+            $("#div_zhuce").click(function(){
+                location.href="../register/register.html";
+            });
+            $("#div_shouye").click(function(){
+                location.href="../index/index.html";
+            });
+            $("#div_wengaoguanli").click(function(){
+                location.href="../tian/tian.html";
+            });
+        });
+    </script>
     <div id="div_header">
         <div id="div_img">
             <div id="div_zhuce"></div>
