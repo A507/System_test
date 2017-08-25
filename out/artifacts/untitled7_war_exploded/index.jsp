@@ -7,9 +7,12 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.beans.Statement" %>
+<%@ page import="java.sql.Connection" %>
+<%@ page import="java.sql.DriverManager" %>
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="java.sql.SQLException" %>
 <%@ page import="java.util.Scanner" %>
 <%@ page import="bean.javabean"%>
-<%@ page import="java.sql.*" %>
 
 <html>
   <head>
@@ -22,7 +25,6 @@
 
 
   <%
-     String id1=(String)request.getParameter("userneame");
      System.out.println("2");
      javabean.connection();
      javabean.insert("g","g","g","g","g","g","g","g","g");
