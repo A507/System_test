@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="message@localhost" uuid="396f5044-578e-4782-bb1a-9c48c651900c">
+    <data-source name="message@192.168.1.114" uuid="396f5044-578e-4782-bb1a-9c48c651900c">
       <database-info product="MySQL" version="5.7.19-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -11,7 +11,7 @@
       <user-name>root</user-name>
       <introspection-schemas>*:message</introspection-schemas>
     </data-source>
-    <data-source name="denglu@localhost" uuid="bd155a15-ced8-478d-8169-ff588794ac4d">
+    <data-source name="denglu@192.168.1.114" uuid="bd155a15-ced8-478d-8169-ff588794ac4d">
       <database-info product="MySQL" version="5.7.19-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -21,7 +21,7 @@
       <user-name>root</user-name>
       <introspection-schemas>*:denglu</introspection-schemas>
     </data-source>
-    <data-source name="yonghu@localhost" uuid="56164612-bc62-4a6b-9ebc-abd79ff3ef7d">
+    <data-source name="yonghu@192.168.1.114" uuid="56164612-bc62-4a6b-9ebc-abd79ff3ef7d">
       <database-info product="MySQL" version="5.7.19-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -31,7 +31,7 @@
       <user-name>root</user-name>
       <introspection-schemas>*:yonghu</introspection-schemas>
     </data-source>
-    <data-source name="pinglun@localhost" uuid="eaaa709f-9506-41af-9492-90ea3695a2af">
+    <data-source name="pinglun@192.168.1.114" uuid="eaaa709f-9506-41af-9492-90ea3695a2af">
       <database-info product="MySQL" version="5.7.19-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -41,7 +41,7 @@
       <user-name>root</user-name>
       <introspection-schemas>*:pinglun</introspection-schemas>
     </data-source>
-    <data-source name="wendang@localhost" uuid="a4ab34b9-18df-4490-b35f-63cf074ccbdc">
+    <data-source name="wendang@192.168.1.114" uuid="a4ab34b9-18df-4490-b35f-63cf074ccbdc">
       <database-info product="MySQL" version="5.7.19-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>

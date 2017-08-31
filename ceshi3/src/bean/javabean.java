@@ -64,19 +64,7 @@ public class javabean {
         }
 
         String user = "root";
-        String url = "jdbc:mysql://localhost:3306/message";
-        try
-
-        {
-            con = DriverManager.getConnection(url, user, "1234");
-            st = con.createStatement();
-        } catch (
-                SQLException e)
-
-        {
-            System.out.println("创建数据库连接出错");
-            e.printStackTrace();
-        }
+        String url = "jdbc:mysql://192.168.1.114:3306/message";
         if (con == null)
 
         {
@@ -104,7 +92,7 @@ public class javabean {
         }
 
         String user = "root";
-        String url = "jdbc:mysql://localhost:3306/pinglun";
+        String url = "jdbc:mysql://192.168.1.114:3306/pinglun";
         try
 
         {
@@ -142,7 +130,7 @@ public class javabean {
         }
 
         String user = "root";
-        String url = "jdbc:mysql://localhost:3306/wendang";
+        String url = "jdbc:mysql://192.168.1.114:3306/wendang";
         try
 
         {
@@ -180,7 +168,7 @@ public class javabean {
         }
 
         String user = "root";
-        String url = "jdbc:mysql://localhost:3306/yonghu";
+        String url = "jdbc:mysql://192.168.1.114:3306/yonghu";
         try
 
         {
@@ -220,7 +208,7 @@ public class javabean {
         }
 
         String user = "root";
-        String url = "jdbc:mysql://localhost:3306/denglu";
+        String url = "jdbc:mysql://192.168.1.114:3306/denglu";
         try
 
         {

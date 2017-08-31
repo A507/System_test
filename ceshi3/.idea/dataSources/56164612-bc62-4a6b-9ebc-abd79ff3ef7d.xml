@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="yonghu@localhost">
+<dataSource name="yonghu@192.168.1.114">
   <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
     <root id="1"/>
     <schema id="2" parent="1" name="yonghu">
@@ -12,53 +12,55 @@
     <schema id="6" parent="1" name="mysql"/>
     <schema id="7" parent="1" name="performance_schema"/>
     <schema id="8" parent="1" name="sys"/>
-    <table id="9" parent="2" name="yonghuxinxi"/>
-    <column id="10" parent="9" name="id">
+    <schema id="9" parent="1" name="pinglun"/>
+    <schema id="10" parent="1" name="wendang"/>
+    <table id="11" parent="2" name="yonghuxinxi"/>
+    <column id="12" parent="11" name="id">
       <Position>1</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="11" parent="9" name="address">
+    <column id="13" parent="11" name="address">
       <Position>2</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="12" parent="9" name="phone">
+    <column id="14" parent="11" name="phone">
       <Position>3</Position>
       <DataType>char(40)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="13" parent="9" name="referee">
+    <column id="15" parent="11" name="referee">
       <Position>4</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="14" parent="9" name="sex">
+    <column id="16" parent="11" name="sex">
       <Position>5</Position>
       <DataType>char(10)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="15" parent="9" name="date">
+    <column id="17" parent="11" name="date">
       <Position>6</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="16" parent="9" name="industry">
+    <column id="18" parent="11" name="industry">
       <Position>7</Position>
       <DataType>char(40)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="17" parent="9" name="committee">
+    <column id="19" parent="11" name="committee">
       <Position>8</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="18" parent="9" name="password">
+    <column id="20" parent="11" name="password">
       <Position>9</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="19" parent="9" name="PRIMARY">
+    <key id="21" parent="11" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

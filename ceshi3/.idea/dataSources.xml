@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="message@localhost" uuid="396f5044-578e-4782-bb1a-9c48c651900c">
+    <data-source source="LOCAL" name="message@192.168.1.114" uuid="396f5044-578e-4782-bb1a-9c48c651900c">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/message</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.1.114:3306/message</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
@@ -15,11 +15,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="denglu@localhost" uuid="bd155a15-ced8-478d-8169-ff588794ac4d">
+    <data-source source="LOCAL" name="denglu@192.168.1.114" uuid="bd155a15-ced8-478d-8169-ff588794ac4d">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/denglu</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.1.114:3306/denglu</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
@@ -29,11 +29,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="yonghu@localhost" uuid="56164612-bc62-4a6b-9ebc-abd79ff3ef7d">
+    <data-source source="LOCAL" name="yonghu@192.168.1.114" uuid="56164612-bc62-4a6b-9ebc-abd79ff3ef7d">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/yonghu</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.1.114:3306/yonghu</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
@@ -43,11 +43,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="pinglun@localhost" uuid="eaaa709f-9506-41af-9492-90ea3695a2af">
+    <data-source source="LOCAL" name="pinglun@192.168.1.114" uuid="eaaa709f-9506-41af-9492-90ea3695a2af">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/pinglun</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.1.114:3306/pinglun</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
@@ -57,11 +57,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="wendang@localhost" uuid="a4ab34b9-18df-4490-b35f-63cf074ccbdc">
+    <data-source source="LOCAL" name="wendang@192.168.1.114" uuid="a4ab34b9-18df-4490-b35f-63cf074ccbdc">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/wendang</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.1.114:3306/wendang</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
