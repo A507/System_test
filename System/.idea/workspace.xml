@@ -45,8 +45,20 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="291" column="30" lean-forward="true" selection-start-line="291" selection-start-column="30" selection-end-line="291" selection-end-column="30" />
+            <state relative-caret-position="25704">
+              <caret line="612" column="11" lean-forward="false" selection-start-line="605" selection-start-column="7" selection-end-line="612" selection-end-column="11" />
+              <folding>
+                <marker date="1504182032337" expanded="false" signature="22444:22501" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guanli.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/guanli/guanli.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1092">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/web/tian/tian.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="183">
-              <caret line="567" column="23" lean-forward="false" selection-start-line="567" selection-start-column="21" selection-end-line="567" selection-end-column="23" />
+              <caret line="485" column="31" lean-forward="false" selection-start-line="485" selection-start-column="29" selection-end-line="485" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -65,24 +77,9 @@
       <file leaf-file-name="xiangqing.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/xiangqing/xiangqing.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Check.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Check/Check.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="35322">
+              <caret line="841" column="11" lean-forward="false" selection-start-line="841" selection-start-column="11" selection-end-line="841" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,49 +87,41 @@
       <file leaf-file-name="javabean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bean/javabean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="307" column="45" lean-forward="false" selection-start-line="307" selection-start-column="45" selection-end-line="307" selection-end-column="45" />
+            <state relative-caret-position="630">
+              <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1504147303818" expanded="true" signature="789:819" ph="INSERT INTO fuyi" />
-                <marker date="1504147303818" expanded="true" signature="1371:1403" ph="INSERT INTO fandui" />
-                <marker date="1504147303818" expanded="true" signature="1956:2011" ph="SELECT COUNT... fandui" />
-                <marker date="1504147303818" expanded="true" signature="2498:2551" ph="SELECT COUNT... fuyi" />
-                <marker date="1504147303818" expanded="true" signature="3018:3056" ph="SELECT COUNT... fuyi" />
-                <marker date="1504147303818" expanded="true" signature="3472:3512" ph="SELECT COUNT... fandui" />
-                <marker date="1504147303818" expanded="true" signature="3935:3979" ph="DELETE FROM " />
-                <marker date="1504147303818" expanded="true" signature="4482:4528" ph="DELETE FROM " />
-                <marker date="1504147303818" expanded="true" signature="5013:5046" ph="SELECT * FRO... quanxian" />
-                <marker date="1504147303818" expanded="true" signature="5528:5559" ph="DELETE FROM " />
-                <marker date="1504147303818" expanded="true" signature="6084:6128" ph="SELECT * FRO... cookie" />
-                <marker date="1504147303818" expanded="true" signature="6657:6690" ph="INSERT INTO cookie... " />
-                <marker date="1504147303818" expanded="true" signature="7221:7258" ph="SELECT * FRO... yonghu" />
-                <marker date="1504147303818" expanded="true" signature="7682:7715" ph="INSERT INTO quanxian... " />
-                <marker date="1504147303818" expanded="true" signature="8679:8697" ph="SELECT * FRO... tian" />
-                <marker date="1504147303818" expanded="true" signature="9063:9096" ph="SELECT * FRO... tian" />
-                <marker date="1504147303818" expanded="true" signature="9541:9578" ph="INSERT INTO tian... " />
-                <marker date="1504147303818" expanded="true" signature="10403:10430" ph="DELETE FROM " />
-                <marker date="1504147303818" expanded="true" signature="10864:10905" ph="SELECT COUNT... pinglun" />
-                <marker date="1504147303818" expanded="true" signature="11497:11531" ph="SELECT * FRO... pinglun" />
-                <marker date="1504147303818" expanded="true" signature="11978:12014" ph="INSERT INTO pinglun... " />
-                <marker date="1504147303818" expanded="true" signature="12742:12771" ph="SELECT * FRO... tian" />
-                <marker date="1504147303818" expanded="true" signature="13160:13191" ph="DELETE FROM " />
-                <marker date="1504147303818" expanded="true" signature="13646:13683" ph="INSERT INTO tian... " />
-                <marker date="1504147303818" expanded="true" signature="14516:14547" ph="SELECT * FRO... yonghu" />
-                <marker date="1504147303818" expanded="true" signature="15053:15090" ph="UPDATE cooki... " />
-                <marker date="1504147303818" expanded="true" signature="15581:15610" ph="INSERT INTO test... " />
-                <marker date="1504147303818" expanded="true" signature="16482:16539" ph="INSERT INTO yonghu... " />
+                <marker date="1504223889908" expanded="true" signature="881:995" ph="UPDATE yongh... " />
+                <marker date="1504223889908" expanded="true" signature="1840:1870" ph="INSERT INTO fuyi" />
+                <marker date="1504223889908" expanded="true" signature="2422:2454" ph="INSERT INTO fandui" />
+                <marker date="1504223889908" expanded="true" signature="3007:3062" ph="SELECT COUNT... fandui" />
+                <marker date="1504223889908" expanded="true" signature="3549:3602" ph="SELECT COUNT... fuyi" />
+                <marker date="1504223889908" expanded="true" signature="4069:4107" ph="SELECT COUNT... fuyi" />
+                <marker date="1504223889908" expanded="true" signature="4523:4563" ph="SELECT COUNT... fandui" />
+                <marker date="1504223889908" expanded="true" signature="4986:5030" ph="DELETE FROM " />
+                <marker date="1504223889908" expanded="true" signature="5533:5579" ph="DELETE FROM " />
+                <marker date="1504223889908" expanded="true" signature="6064:6097" ph="SELECT * FRO... quanxian" />
+                <marker date="1504223889908" expanded="true" signature="6579:6610" ph="DELETE FROM " />
+                <marker date="1504223889908" expanded="true" signature="7135:7179" ph="SELECT * FRO... cookie" />
+                <marker date="1504223889908" expanded="true" signature="7708:7741" ph="INSERT INTO cookie... " />
+                <marker date="1504223889908" expanded="true" signature="8272:8309" ph="SELECT * FRO... yonghu" />
+                <marker date="1504223889908" expanded="true" signature="8733:8766" ph="INSERT INTO quanxian... " />
+                <marker date="1504223889908" expanded="true" signature="9732:9770" ph="SELECT * FRO... tian" />
+                <marker date="1504223889908" expanded="true" signature="10184:10202" ph="SELECT * FRO... tian" />
+                <marker date="1504223889908" expanded="true" signature="10568:10601" ph="SELECT * FRO... tian" />
+                <marker date="1504223889908" expanded="true" signature="11046:11083" ph="INSERT INTO tian... " />
+                <marker date="1504223889908" expanded="true" signature="11908:11935" ph="DELETE FROM " />
+                <marker date="1504223889908" expanded="true" signature="12369:12410" ph="SELECT COUNT... pinglun" />
+                <marker date="1504223889908" expanded="true" signature="13002:13036" ph="SELECT * FRO... pinglun" />
+                <marker date="1504223889908" expanded="true" signature="13483:13519" ph="INSERT INTO pinglun... " />
+                <marker date="1504223889908" expanded="true" signature="14247:14276" ph="SELECT * FRO... tian" />
+                <marker date="1504223889908" expanded="true" signature="14665:14696" ph="DELETE FROM " />
+                <marker date="1504223889908" expanded="true" signature="15151:15188" ph="INSERT INTO tian... " />
+                <marker date="1504223889908" expanded="true" signature="16021:16052" ph="SELECT * FRO... yonghu" />
+                <marker date="1504223889908" expanded="true" signature="16558:16595" ph="UPDATE cooki... " />
+                <marker date="1504223889908" expanded="true" signature="17086:17115" ph="INSERT INTO test... " />
+                <marker date="1504223889908" expanded="true" signature="17987:18044" ph="INSERT INTO yonghu... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="23" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="18" selection-end-column="23" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -150,7 +139,7 @@
       <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/register/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
+            <state relative-caret-position="20118">
               <caret line="479" column="18" lean-forward="false" selection-start-line="479" selection-start-column="18" selection-end-line="479" selection-end-column="18" />
               <folding />
             </state>
@@ -160,18 +149,28 @@
       <file leaf-file-name="zhuce.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/zhuce.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="58" column="4" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xinxiweihu.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="xinxiweihu.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/xinxiweihu/xinxiweihu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="17808">
+              <caret line="424" column="12" lean-forward="false" selection-start-line="424" selection-start-column="12" selection-end-line="424" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/login/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="220" column="20" lean-forward="true" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -189,36 +188,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>coo</find>
-      <find>cookie</find>
-      <find>wengao</find>
-      <find>tian</find>
-      <find>zhuxiao</find>
-      <find>xiangqing</find>
-      <find>insertT</find>
-      <find>评论</find>
-      <find>div_int</find>
-      <find>tian_id</find>
-      <find>act</find>
-      <find>1000</find>
-      <find>this</find>
-      <find>222</find>
-      <find>chexiao</find>
-      <find>pinglun_1</find>
-      <find>fuyi</find>
       <find>#fuyi</find>
       <find>count</find>
       <find>/fandui</find>
       <find>zhuxiaao</find>
-      <find>bianse</find>
       <find>div_zhuxiao</find>
       <find>shouy</find>
       <find>xingming</find>
-      <find>shouye</find>
       <find>form</find>
-      <find>ha</find>
+      <find>baocun</find>
       <find>提案</find>
+      <find>jiating</find>
       <find>反对数</find>
+      <find>bianse</find>
+      <find>zhuxi</find>
+      <find>zhuxiao</find>
+      <find>ha</find>
+      <find>shouye</find>
+      <find>select * from yong</find>
+      <find>wo</find>
+      <find>复议</find>
+      <find>select * from tian</find>
+      <find>guanli</find>
+      <find>div_guali</find>
+      <find>wengaoguanli</find>
+      <find>gual</find>
+      <find>guali</find>
+      <find>//测试</find>
+      <find>用户</find>
+      <find>sousuo</find>
+      <find>要求</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -240,11 +239,12 @@
         <option value="$PROJECT_DIR$/web/zhuce.jsp" />
         <option value="$PROJECT_DIR$/web/register/register.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/guanli/guanli.jsp" />
         <option value="$PROJECT_DIR$/web/index/index.jsp" />
-        <option value="$PROJECT_DIR$/src/bean/javabean.java" />
         <option value="$PROJECT_DIR$/web/tian/tian.jsp" />
         <option value="$PROJECT_DIR$/web/xiangqing/xiangqing.jsp" />
         <option value="$PROJECT_DIR$/web/xinxiweihu/xinxiweihu.jsp" />
+        <option value="$PROJECT_DIR$/src/bean/javabean.java" />
       </list>
     </option>
   </component>
@@ -261,7 +261,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="688" />
     <option name="y" value="81" />
     <option name="width" value="1081" />
@@ -282,10 +282,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,12 +301,13 @@
               <item name="System" type="b2602c69:ProjectViewProjectNode" />
               <item name="System" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="tian" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -509,15 +509,18 @@
       <workItem from="1503975326392" duration="32208000" />
       <workItem from="1504055680274" duration="17687000" />
       <workItem from="1504075647413" duration="18452000" />
-      <workItem from="1504140803395" duration="8120000" />
+      <workItem from="1504140803395" duration="18349000" />
+      <workItem from="1504171133440" duration="3620000" />
+      <workItem from="1504181243475" duration="3656000" />
+      <workItem from="1504223818161" duration="106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81082000" />
+    <option name="totallyTimeSpent" value="98693000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -531,7 +534,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -601,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10122">
           <caret line="241" column="36" lean-forward="false" selection-start-line="241" selection-start-column="36" selection-end-line="241" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +611,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22848">
           <caret line="544" column="54" lean-forward="true" selection-start-line="544" selection-start-column="54" selection-end-line="544" selection-end-column="54" />
-          <folding />
+          <folding>
+            <marker date="1504182032337" expanded="false" signature="22444:22501" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -637,34 +641,36 @@
           <caret line="198" column="18" lean-forward="false" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1504147303818" expanded="true" signature="789:819" ph="INSERT INTO fuyi" />
-            <marker date="1504147303818" expanded="true" signature="1371:1403" ph="INSERT INTO fandui" />
-            <marker date="1504147303818" expanded="true" signature="1956:2011" ph="SELECT COUNT... fandui" />
-            <marker date="1504147303818" expanded="true" signature="2498:2551" ph="SELECT COUNT... fuyi" />
-            <marker date="1504147303818" expanded="true" signature="3018:3056" ph="SELECT COUNT... fuyi" />
-            <marker date="1504147303818" expanded="true" signature="3472:3512" ph="SELECT COUNT... fandui" />
-            <marker date="1504147303818" expanded="true" signature="3935:3979" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="4482:4528" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="5013:5046" ph="SELECT * FRO... quanxian" />
-            <marker date="1504147303818" expanded="true" signature="5528:5559" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="6084:6128" ph="SELECT * FRO... cookie" />
-            <marker date="1504147303818" expanded="true" signature="6657:6690" ph="INSERT INTO cookie... " />
-            <marker date="1504147303818" expanded="true" signature="7221:7258" ph="SELECT * FRO... yonghu" />
-            <marker date="1504147303818" expanded="true" signature="7682:7715" ph="INSERT INTO quanxian... " />
-            <marker date="1504147303818" expanded="true" signature="8679:8697" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="9063:9096" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="9541:9578" ph="INSERT INTO tian... " />
-            <marker date="1504147303818" expanded="true" signature="10403:10430" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="10864:10905" ph="SELECT COUNT... pinglun" />
-            <marker date="1504147303818" expanded="true" signature="11497:11531" ph="SELECT * FRO... pinglun" />
-            <marker date="1504147303818" expanded="true" signature="11978:12014" ph="INSERT INTO pinglun... " />
-            <marker date="1504147303818" expanded="true" signature="12742:12771" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="13160:13191" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="13646:13683" ph="INSERT INTO tian... " />
-            <marker date="1504147303818" expanded="true" signature="14516:14547" ph="SELECT * FRO... yonghu" />
-            <marker date="1504147303818" expanded="true" signature="15053:15090" ph="UPDATE cooki... " />
-            <marker date="1504147303818" expanded="true" signature="15581:15610" ph="INSERT INTO test... " />
-            <marker date="1504147303818" expanded="true" signature="16482:16539" ph="INSERT INTO yonghu... " />
+            <marker date="1504223889908" expanded="true" signature="881:995" ph="UPDATE yongh... " />
+            <marker date="1504223889908" expanded="true" signature="1840:1870" ph="INSERT INTO fuyi" />
+            <marker date="1504223889908" expanded="true" signature="2422:2454" ph="INSERT INTO fandui" />
+            <marker date="1504223889908" expanded="true" signature="3007:3062" ph="SELECT COUNT... fandui" />
+            <marker date="1504223889908" expanded="true" signature="3549:3602" ph="SELECT COUNT... fuyi" />
+            <marker date="1504223889908" expanded="true" signature="4069:4107" ph="SELECT COUNT... fuyi" />
+            <marker date="1504223889908" expanded="true" signature="4523:4563" ph="SELECT COUNT... fandui" />
+            <marker date="1504223889908" expanded="true" signature="4986:5030" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="5533:5579" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="6064:6097" ph="SELECT * FRO... quanxian" />
+            <marker date="1504223889908" expanded="true" signature="6579:6610" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="7135:7179" ph="SELECT * FRO... cookie" />
+            <marker date="1504223889908" expanded="true" signature="7708:7741" ph="INSERT INTO cookie... " />
+            <marker date="1504223889908" expanded="true" signature="8272:8309" ph="SELECT * FRO... yonghu" />
+            <marker date="1504223889908" expanded="true" signature="8733:8766" ph="INSERT INTO quanxian... " />
+            <marker date="1504223889908" expanded="true" signature="9732:9770" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="10184:10202" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="10568:10601" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="11046:11083" ph="INSERT INTO tian... " />
+            <marker date="1504223889908" expanded="true" signature="11908:11935" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="12369:12410" ph="SELECT COUNT... pinglun" />
+            <marker date="1504223889908" expanded="true" signature="13002:13036" ph="SELECT * FRO... pinglun" />
+            <marker date="1504223889908" expanded="true" signature="13483:13519" ph="INSERT INTO pinglun... " />
+            <marker date="1504223889908" expanded="true" signature="14247:14276" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="14665:14696" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="15151:15188" ph="INSERT INTO tian... " />
+            <marker date="1504223889908" expanded="true" signature="16021:16052" ph="SELECT * FRO... yonghu" />
+            <marker date="1504223889908" expanded="true" signature="16558:16595" ph="UPDATE cooki... " />
+            <marker date="1504223889908" expanded="true" signature="17086:17115" ph="INSERT INTO test... " />
+            <marker date="1504223889908" expanded="true" signature="17987:18044" ph="INSERT INTO yonghu... " />
           </folding>
         </state>
       </provider>
@@ -673,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="18" column="23" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="18" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,10 +710,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1932">
           <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9240">
           <caret line="220" column="20" lean-forward="false" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +725,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5292">
           <caret line="126" column="26" lean-forward="false" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1504182032337" expanded="false" signature="22444:22501" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -752,34 +755,36 @@
           <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1504147303818" expanded="true" signature="789:819" ph="INSERT INTO fuyi" />
-            <marker date="1504147303818" expanded="true" signature="1371:1403" ph="INSERT INTO fandui" />
-            <marker date="1504147303818" expanded="true" signature="1956:2011" ph="SELECT COUNT... fandui" />
-            <marker date="1504147303818" expanded="true" signature="2498:2551" ph="SELECT COUNT... fuyi" />
-            <marker date="1504147303818" expanded="true" signature="3018:3056" ph="SELECT COUNT... fuyi" />
-            <marker date="1504147303818" expanded="true" signature="3472:3512" ph="SELECT COUNT... fandui" />
-            <marker date="1504147303818" expanded="true" signature="3935:3979" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="4482:4528" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="5013:5046" ph="SELECT * FRO... quanxian" />
-            <marker date="1504147303818" expanded="true" signature="5528:5559" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="6084:6128" ph="SELECT * FRO... cookie" />
-            <marker date="1504147303818" expanded="true" signature="6657:6690" ph="INSERT INTO cookie... " />
-            <marker date="1504147303818" expanded="true" signature="7221:7258" ph="SELECT * FRO... yonghu" />
-            <marker date="1504147303818" expanded="true" signature="7682:7715" ph="INSERT INTO quanxian... " />
-            <marker date="1504147303818" expanded="true" signature="8679:8697" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="9063:9096" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="9541:9578" ph="INSERT INTO tian... " />
-            <marker date="1504147303818" expanded="true" signature="10403:10430" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="10864:10905" ph="SELECT COUNT... pinglun" />
-            <marker date="1504147303818" expanded="true" signature="11497:11531" ph="SELECT * FRO... pinglun" />
-            <marker date="1504147303818" expanded="true" signature="11978:12014" ph="INSERT INTO pinglun... " />
-            <marker date="1504147303818" expanded="true" signature="12742:12771" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="13160:13191" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="13646:13683" ph="INSERT INTO tian... " />
-            <marker date="1504147303818" expanded="true" signature="14516:14547" ph="SELECT * FRO... yonghu" />
-            <marker date="1504147303818" expanded="true" signature="15053:15090" ph="UPDATE cooki... " />
-            <marker date="1504147303818" expanded="true" signature="15581:15610" ph="INSERT INTO test... " />
-            <marker date="1504147303818" expanded="true" signature="16482:16539" ph="INSERT INTO yonghu... " />
+            <marker date="1504223889908" expanded="true" signature="881:995" ph="UPDATE yongh... " />
+            <marker date="1504223889908" expanded="true" signature="1840:1870" ph="INSERT INTO fuyi" />
+            <marker date="1504223889908" expanded="true" signature="2422:2454" ph="INSERT INTO fandui" />
+            <marker date="1504223889908" expanded="true" signature="3007:3062" ph="SELECT COUNT... fandui" />
+            <marker date="1504223889908" expanded="true" signature="3549:3602" ph="SELECT COUNT... fuyi" />
+            <marker date="1504223889908" expanded="true" signature="4069:4107" ph="SELECT COUNT... fuyi" />
+            <marker date="1504223889908" expanded="true" signature="4523:4563" ph="SELECT COUNT... fandui" />
+            <marker date="1504223889908" expanded="true" signature="4986:5030" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="5533:5579" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="6064:6097" ph="SELECT * FRO... quanxian" />
+            <marker date="1504223889908" expanded="true" signature="6579:6610" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="7135:7179" ph="SELECT * FRO... cookie" />
+            <marker date="1504223889908" expanded="true" signature="7708:7741" ph="INSERT INTO cookie... " />
+            <marker date="1504223889908" expanded="true" signature="8272:8309" ph="SELECT * FRO... yonghu" />
+            <marker date="1504223889908" expanded="true" signature="8733:8766" ph="INSERT INTO quanxian... " />
+            <marker date="1504223889908" expanded="true" signature="9732:9770" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="10184:10202" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="10568:10601" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="11046:11083" ph="INSERT INTO tian... " />
+            <marker date="1504223889908" expanded="true" signature="11908:11935" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="12369:12410" ph="SELECT COUNT... pinglun" />
+            <marker date="1504223889908" expanded="true" signature="13002:13036" ph="SELECT * FRO... pinglun" />
+            <marker date="1504223889908" expanded="true" signature="13483:13519" ph="INSERT INTO pinglun... " />
+            <marker date="1504223889908" expanded="true" signature="14247:14276" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="14665:14696" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="15151:15188" ph="INSERT INTO tian... " />
+            <marker date="1504223889908" expanded="true" signature="16021:16052" ph="SELECT * FRO... yonghu" />
+            <marker date="1504223889908" expanded="true" signature="16558:16595" ph="UPDATE cooki... " />
+            <marker date="1504223889908" expanded="true" signature="17086:17115" ph="INSERT INTO test... " />
+            <marker date="1504223889908" expanded="true" signature="17987:18044" ph="INSERT INTO yonghu... " />
           </folding>
         </state>
       </provider>
@@ -788,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="18" column="23" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="18" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,10 +824,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1092">
           <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -838,7 +839,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3444">
           <caret line="82" column="9" lean-forward="false" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
-          <folding />
+          <folding>
+            <marker date="1504182032337" expanded="false" signature="22444:22501" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -858,34 +861,36 @@
           <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1504147303818" expanded="true" signature="789:819" ph="INSERT INTO fuyi" />
-            <marker date="1504147303818" expanded="true" signature="1371:1403" ph="INSERT INTO fandui" />
-            <marker date="1504147303818" expanded="true" signature="1956:2011" ph="SELECT COUNT... fandui" />
-            <marker date="1504147303818" expanded="true" signature="2498:2551" ph="SELECT COUNT... fuyi" />
-            <marker date="1504147303818" expanded="true" signature="3018:3056" ph="SELECT COUNT... fuyi" />
-            <marker date="1504147303818" expanded="true" signature="3472:3512" ph="SELECT COUNT... fandui" />
-            <marker date="1504147303818" expanded="true" signature="3935:3979" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="4482:4528" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="5013:5046" ph="SELECT * FRO... quanxian" />
-            <marker date="1504147303818" expanded="true" signature="5528:5559" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="6084:6128" ph="SELECT * FRO... cookie" />
-            <marker date="1504147303818" expanded="true" signature="6657:6690" ph="INSERT INTO cookie... " />
-            <marker date="1504147303818" expanded="true" signature="7221:7258" ph="SELECT * FRO... yonghu" />
-            <marker date="1504147303818" expanded="true" signature="7682:7715" ph="INSERT INTO quanxian... " />
-            <marker date="1504147303818" expanded="true" signature="8679:8697" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="9063:9096" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="9541:9578" ph="INSERT INTO tian... " />
-            <marker date="1504147303818" expanded="true" signature="10403:10430" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="10864:10905" ph="SELECT COUNT... pinglun" />
-            <marker date="1504147303818" expanded="true" signature="11497:11531" ph="SELECT * FRO... pinglun" />
-            <marker date="1504147303818" expanded="true" signature="11978:12014" ph="INSERT INTO pinglun... " />
-            <marker date="1504147303818" expanded="true" signature="12742:12771" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="13160:13191" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="13646:13683" ph="INSERT INTO tian... " />
-            <marker date="1504147303818" expanded="true" signature="14516:14547" ph="SELECT * FRO... yonghu" />
-            <marker date="1504147303818" expanded="true" signature="15053:15090" ph="UPDATE cooki... " />
-            <marker date="1504147303818" expanded="true" signature="15581:15610" ph="INSERT INTO test... " />
-            <marker date="1504147303818" expanded="true" signature="16482:16539" ph="INSERT INTO yonghu... " />
+            <marker date="1504223889908" expanded="true" signature="881:995" ph="UPDATE yongh... " />
+            <marker date="1504223889908" expanded="true" signature="1840:1870" ph="INSERT INTO fuyi" />
+            <marker date="1504223889908" expanded="true" signature="2422:2454" ph="INSERT INTO fandui" />
+            <marker date="1504223889908" expanded="true" signature="3007:3062" ph="SELECT COUNT... fandui" />
+            <marker date="1504223889908" expanded="true" signature="3549:3602" ph="SELECT COUNT... fuyi" />
+            <marker date="1504223889908" expanded="true" signature="4069:4107" ph="SELECT COUNT... fuyi" />
+            <marker date="1504223889908" expanded="true" signature="4523:4563" ph="SELECT COUNT... fandui" />
+            <marker date="1504223889908" expanded="true" signature="4986:5030" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="5533:5579" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="6064:6097" ph="SELECT * FRO... quanxian" />
+            <marker date="1504223889908" expanded="true" signature="6579:6610" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="7135:7179" ph="SELECT * FRO... cookie" />
+            <marker date="1504223889908" expanded="true" signature="7708:7741" ph="INSERT INTO cookie... " />
+            <marker date="1504223889908" expanded="true" signature="8272:8309" ph="SELECT * FRO... yonghu" />
+            <marker date="1504223889908" expanded="true" signature="8733:8766" ph="INSERT INTO quanxian... " />
+            <marker date="1504223889908" expanded="true" signature="9732:9770" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="10184:10202" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="10568:10601" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="11046:11083" ph="INSERT INTO tian... " />
+            <marker date="1504223889908" expanded="true" signature="11908:11935" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="12369:12410" ph="SELECT COUNT... pinglun" />
+            <marker date="1504223889908" expanded="true" signature="13002:13036" ph="SELECT * FRO... pinglun" />
+            <marker date="1504223889908" expanded="true" signature="13483:13519" ph="INSERT INTO pinglun... " />
+            <marker date="1504223889908" expanded="true" signature="14247:14276" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="14665:14696" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="15151:15188" ph="INSERT INTO tian... " />
+            <marker date="1504223889908" expanded="true" signature="16021:16052" ph="SELECT * FRO... yonghu" />
+            <marker date="1504223889908" expanded="true" signature="16558:16595" ph="UPDATE cooki... " />
+            <marker date="1504223889908" expanded="true" signature="17086:17115" ph="INSERT INTO test... " />
+            <marker date="1504223889908" expanded="true" signature="17987:18044" ph="INSERT INTO yonghu... " />
           </folding>
         </state>
       </provider>
@@ -926,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9366">
           <caret line="223" column="23" lean-forward="false" selection-start-line="223" selection-start-column="23" selection-end-line="223" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,7 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,34 +954,36 @@
           <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1504147303818" expanded="true" signature="789:819" ph="INSERT INTO fuyi" />
-            <marker date="1504147303818" expanded="true" signature="1371:1403" ph="INSERT INTO fandui" />
-            <marker date="1504147303818" expanded="true" signature="1956:2011" ph="SELECT COUNT... fandui" />
-            <marker date="1504147303818" expanded="true" signature="2498:2551" ph="SELECT COUNT... fuyi" />
-            <marker date="1504147303818" expanded="true" signature="3018:3056" ph="SELECT COUNT... fuyi" />
-            <marker date="1504147303818" expanded="true" signature="3472:3512" ph="SELECT COUNT... fandui" />
-            <marker date="1504147303818" expanded="true" signature="3935:3979" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="4482:4528" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="5013:5046" ph="SELECT * FRO... quanxian" />
-            <marker date="1504147303818" expanded="true" signature="5528:5559" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="6084:6128" ph="SELECT * FRO... cookie" />
-            <marker date="1504147303818" expanded="true" signature="6657:6690" ph="INSERT INTO cookie... " />
-            <marker date="1504147303818" expanded="true" signature="7221:7258" ph="SELECT * FRO... yonghu" />
-            <marker date="1504147303818" expanded="true" signature="7682:7715" ph="INSERT INTO quanxian... " />
-            <marker date="1504147303818" expanded="true" signature="8679:8697" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="9063:9096" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="9541:9578" ph="INSERT INTO tian... " />
-            <marker date="1504147303818" expanded="true" signature="10403:10430" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="10864:10905" ph="SELECT COUNT... pinglun" />
-            <marker date="1504147303818" expanded="true" signature="11497:11531" ph="SELECT * FRO... pinglun" />
-            <marker date="1504147303818" expanded="true" signature="11978:12014" ph="INSERT INTO pinglun... " />
-            <marker date="1504147303818" expanded="true" signature="12742:12771" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="13160:13191" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="13646:13683" ph="INSERT INTO tian... " />
-            <marker date="1504147303818" expanded="true" signature="14516:14547" ph="SELECT * FRO... yonghu" />
-            <marker date="1504147303818" expanded="true" signature="15053:15090" ph="UPDATE cooki... " />
-            <marker date="1504147303818" expanded="true" signature="15581:15610" ph="INSERT INTO test... " />
-            <marker date="1504147303818" expanded="true" signature="16482:16539" ph="INSERT INTO yonghu... " />
+            <marker date="1504223889908" expanded="true" signature="881:995" ph="UPDATE yongh... " />
+            <marker date="1504223889908" expanded="true" signature="1840:1870" ph="INSERT INTO fuyi" />
+            <marker date="1504223889908" expanded="true" signature="2422:2454" ph="INSERT INTO fandui" />
+            <marker date="1504223889908" expanded="true" signature="3007:3062" ph="SELECT COUNT... fandui" />
+            <marker date="1504223889908" expanded="true" signature="3549:3602" ph="SELECT COUNT... fuyi" />
+            <marker date="1504223889908" expanded="true" signature="4069:4107" ph="SELECT COUNT... fuyi" />
+            <marker date="1504223889908" expanded="true" signature="4523:4563" ph="SELECT COUNT... fandui" />
+            <marker date="1504223889908" expanded="true" signature="4986:5030" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="5533:5579" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="6064:6097" ph="SELECT * FRO... quanxian" />
+            <marker date="1504223889908" expanded="true" signature="6579:6610" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="7135:7179" ph="SELECT * FRO... cookie" />
+            <marker date="1504223889908" expanded="true" signature="7708:7741" ph="INSERT INTO cookie... " />
+            <marker date="1504223889908" expanded="true" signature="8272:8309" ph="SELECT * FRO... yonghu" />
+            <marker date="1504223889908" expanded="true" signature="8733:8766" ph="INSERT INTO quanxian... " />
+            <marker date="1504223889908" expanded="true" signature="9732:9770" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="10184:10202" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="10568:10601" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="11046:11083" ph="INSERT INTO tian... " />
+            <marker date="1504223889908" expanded="true" signature="11908:11935" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="12369:12410" ph="SELECT COUNT... pinglun" />
+            <marker date="1504223889908" expanded="true" signature="13002:13036" ph="SELECT * FRO... pinglun" />
+            <marker date="1504223889908" expanded="true" signature="13483:13519" ph="INSERT INTO pinglun... " />
+            <marker date="1504223889908" expanded="true" signature="14247:14276" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="14665:14696" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="15151:15188" ph="INSERT INTO tian... " />
+            <marker date="1504223889908" expanded="true" signature="16021:16052" ph="SELECT * FRO... yonghu" />
+            <marker date="1504223889908" expanded="true" signature="16558:16595" ph="UPDATE cooki... " />
+            <marker date="1504223889908" expanded="true" signature="17086:17115" ph="INSERT INTO test... " />
+            <marker date="1504223889908" expanded="true" signature="17987:18044" ph="INSERT INTO yonghu... " />
           </folding>
         </state>
       </provider>
@@ -1022,33 +1027,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="241" column="36" lean-forward="false" selection-start-line="241" selection-start-column="36" selection-end-line="241" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="291" column="30" lean-forward="true" selection-start-line="291" selection-start-column="30" selection-end-line="291" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/tian/tian.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="567" column="23" lean-forward="false" selection-start-line="567" selection-start-column="21" selection-end-line="567" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Check/Check.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
+        <state relative-caret-position="1260">
           <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1056,49 +1037,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean/javabean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="307" column="45" lean-forward="false" selection-start-line="307" selection-start-column="45" selection-end-line="307" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1504147303818" expanded="true" signature="789:819" ph="INSERT INTO fuyi" />
-            <marker date="1504147303818" expanded="true" signature="1371:1403" ph="INSERT INTO fandui" />
-            <marker date="1504147303818" expanded="true" signature="1956:2011" ph="SELECT COUNT... fandui" />
-            <marker date="1504147303818" expanded="true" signature="2498:2551" ph="SELECT COUNT... fuyi" />
-            <marker date="1504147303818" expanded="true" signature="3018:3056" ph="SELECT COUNT... fuyi" />
-            <marker date="1504147303818" expanded="true" signature="3472:3512" ph="SELECT COUNT... fandui" />
-            <marker date="1504147303818" expanded="true" signature="3935:3979" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="4482:4528" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="5013:5046" ph="SELECT * FRO... quanxian" />
-            <marker date="1504147303818" expanded="true" signature="5528:5559" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="6084:6128" ph="SELECT * FRO... cookie" />
-            <marker date="1504147303818" expanded="true" signature="6657:6690" ph="INSERT INTO cookie... " />
-            <marker date="1504147303818" expanded="true" signature="7221:7258" ph="SELECT * FRO... yonghu" />
-            <marker date="1504147303818" expanded="true" signature="7682:7715" ph="INSERT INTO quanxian... " />
-            <marker date="1504147303818" expanded="true" signature="8679:8697" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="9063:9096" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="9541:9578" ph="INSERT INTO tian... " />
-            <marker date="1504147303818" expanded="true" signature="10403:10430" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="10864:10905" ph="SELECT COUNT... pinglun" />
-            <marker date="1504147303818" expanded="true" signature="11497:11531" ph="SELECT * FRO... pinglun" />
-            <marker date="1504147303818" expanded="true" signature="11978:12014" ph="INSERT INTO pinglun... " />
-            <marker date="1504147303818" expanded="true" signature="12742:12771" ph="SELECT * FRO... tian" />
-            <marker date="1504147303818" expanded="true" signature="13160:13191" ph="DELETE FROM " />
-            <marker date="1504147303818" expanded="true" signature="13646:13683" ph="INSERT INTO tian... " />
-            <marker date="1504147303818" expanded="true" signature="14516:14547" ph="SELECT * FRO... yonghu" />
-            <marker date="1504147303818" expanded="true" signature="15053:15090" ph="UPDATE cooki... " />
-            <marker date="1504147303818" expanded="true" signature="15581:15610" ph="INSERT INTO test... " />
-            <marker date="1504147303818" expanded="true" signature="16482:16539" ph="INSERT INTO yonghu... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="18" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="470">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1112,7 +1054,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/register/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
+        <state relative-caret-position="20118">
           <caret line="479" column="18" lean-forward="false" selection-start-line="479" selection-start-column="18" selection-end-line="479" selection-end-column="18" />
           <folding />
         </state>
@@ -1120,27 +1062,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/zhuce.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="58" column="4" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/xiangqing/xiangqing.jsp">
+    <entry file="file://$PROJECT_DIR$/web/guanli/guanli.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="1092">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25704">
+          <caret line="612" column="11" lean-forward="false" selection-start-line="605" selection-start-column="7" selection-end-line="612" selection-end-column="11" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1504182032337" expanded="false" signature="22444:22501" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/xinxiweihu/xinxiweihu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="17808">
+          <caret line="424" column="12" lean-forward="false" selection-start-line="424" selection-start-column="12" selection-end-line="424" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xiangqing/xiangqing.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35322">
+          <caret line="841" column="11" lean-forward="false" selection-start-line="841" selection-start-column="11" selection-end-line="841" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tian/tian.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="485" column="31" lean-forward="false" selection-start-line="485" selection-start-column="29" selection-end-line="485" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/javabean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1504223889908" expanded="true" signature="881:995" ph="UPDATE yongh... " />
+            <marker date="1504223889908" expanded="true" signature="1840:1870" ph="INSERT INTO fuyi" />
+            <marker date="1504223889908" expanded="true" signature="2422:2454" ph="INSERT INTO fandui" />
+            <marker date="1504223889908" expanded="true" signature="3007:3062" ph="SELECT COUNT... fandui" />
+            <marker date="1504223889908" expanded="true" signature="3549:3602" ph="SELECT COUNT... fuyi" />
+            <marker date="1504223889908" expanded="true" signature="4069:4107" ph="SELECT COUNT... fuyi" />
+            <marker date="1504223889908" expanded="true" signature="4523:4563" ph="SELECT COUNT... fandui" />
+            <marker date="1504223889908" expanded="true" signature="4986:5030" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="5533:5579" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="6064:6097" ph="SELECT * FRO... quanxian" />
+            <marker date="1504223889908" expanded="true" signature="6579:6610" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="7135:7179" ph="SELECT * FRO... cookie" />
+            <marker date="1504223889908" expanded="true" signature="7708:7741" ph="INSERT INTO cookie... " />
+            <marker date="1504223889908" expanded="true" signature="8272:8309" ph="SELECT * FRO... yonghu" />
+            <marker date="1504223889908" expanded="true" signature="8733:8766" ph="INSERT INTO quanxian... " />
+            <marker date="1504223889908" expanded="true" signature="9732:9770" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="10184:10202" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="10568:10601" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="11046:11083" ph="INSERT INTO tian... " />
+            <marker date="1504223889908" expanded="true" signature="11908:11935" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="12369:12410" ph="SELECT COUNT... pinglun" />
+            <marker date="1504223889908" expanded="true" signature="13002:13036" ph="SELECT * FRO... pinglun" />
+            <marker date="1504223889908" expanded="true" signature="13483:13519" ph="INSERT INTO pinglun... " />
+            <marker date="1504223889908" expanded="true" signature="14247:14276" ph="SELECT * FRO... tian" />
+            <marker date="1504223889908" expanded="true" signature="14665:14696" ph="DELETE FROM " />
+            <marker date="1504223889908" expanded="true" signature="15151:15188" ph="INSERT INTO tian... " />
+            <marker date="1504223889908" expanded="true" signature="16021:16052" ph="SELECT * FRO... yonghu" />
+            <marker date="1504223889908" expanded="true" signature="16558:16595" ph="UPDATE cooki... " />
+            <marker date="1504223889908" expanded="true" signature="17086:17115" ph="INSERT INTO test... " />
+            <marker date="1504223889908" expanded="true" signature="17987:18044" ph="INSERT INTO yonghu... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="220" column="20" lean-forward="true" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="20" />
           <folding />
         </state>
       </provider>

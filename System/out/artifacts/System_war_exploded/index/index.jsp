@@ -20,12 +20,10 @@
     String password=request.getParameter("password");
     String xingming=null;
 
-    //测试
-    password=Sha.getSha1(password);
-    //out.print("<h1>"+password+"</h1>");
 
     //刚刚登录
     if(id!=null&&id!=""&&password!=null&&password!=""){
+        password=Sha.getSha1(password);
         javabean bean=new javabean();
         bean.connect();
         //验证密码
@@ -71,23 +69,27 @@
         //out.print("<h1>quanxian="+quanxian+"</h1>");
 
         //设置cookie
-        Date date=new Date();
-        String time=String.valueOf(date.getTime()+1000*60*10);
-        String hash=Sha.getSha1(id1+time);
-        Cookie cookie=new Cookie("hash",hash);
-        cookie.setMaxAge(20*60);
-        cookie.setPath("/");
-        response.addCookie(cookie);
+        if(quanxian!=null) {
+            if(!quanxian.equals("0")) {
+                Date date = new Date();
+                String time = String.valueOf(date.getTime() + 1000 * 60 * 10);
+                String hash = Sha.getSha1(id1 + time);
+                Cookie cookie = new Cookie("hash", hash);
+                cookie.setMaxAge(20 * 60);
+                cookie.setPath("/");
+                response.addCookie(cookie);
 
-        //插入cookie
-        if(!bean.insertCookie(id1,time)){
-            out.print("<h1>cookie插入数据库错误</h1>");
-            return;
-        }
-        //删除过期cookie
-        if(!bean.deleteCookie()){
-            out.print("<h1>未能删除过期cookie</h1>");
-            return;
+                //插入cookie
+                if (!bean.insertCookie(id1, time)) {
+                    out.print("<h1>cookie插入数据库错误</h1>");
+                    return;
+                }
+                //删除过期cookie
+                if (!bean.deleteCookie()) {
+                    out.print("<h1>未能删除过期cookie</h1>");
+                    return;
+                }
+            }
         }
         //关闭数据库
         bean.closeDatabase();
@@ -99,8 +101,6 @@
     String hash = null;
     Cookie[] cookie=request.getCookies();
     if (cookie==null){
-        //测试
-        out.print("<h1>cookie=null</h1>");
         hash="";
     }
     else {
@@ -111,13 +111,11 @@
             }
         }
         if (hash == null) {
-            //测试
-            out.print("<h1>取不到hash</h1>");
             hash="";
         }
         //测试
         if (hash != null) {
-            out.print("<h1>hash=" + hash + "</h1>");
+           // out.print("<h1>hash=" + hash + "</h1>");
         }
     }
 
@@ -166,6 +164,32 @@
 
 
 
+    //没有权限直接提示
+    if(quanxian==null){
+
+    }
+    else if(quanxian.equals("")){
+    }
+    else if(quanxian.equals("0")){
+        out.print("<h1>正在审核中，请耐心等待</h1>");
+        %>
+
+<html>
+<body>
+<script type="text/javascript">
+    setTimeout(function () {
+        location.href="../index/index.jsp"
+    },5000);
+</script>
+</body>
+</html>
+<%
+        return;
+    }
+
+
+
+
 
 
     //注销
@@ -205,8 +229,14 @@
     if (xingming==null){
         xingming="";
     }
-    //测试
-    out.print("<h1>姓名："+xingming+"</h1>");
+
+
+
+
+
+//
+    String sousuo=request.getParameter("sousuo");
+
 %>
 <!doctype html>
 <html>
@@ -571,6 +601,16 @@
         $("#div_zhuxiao").click(function () {
             location.href="../index/index.jsp?zhuxiao=1";
         });
+
+
+        //搜索
+        $("#sousuo").click(function(){
+            if($("input[name='sousuo']").val()==""){
+                alert("搜索不能为空");
+            }else {
+                location.href="index.jsp?sousuo="+$("input[name='sousuo']").val();
+            }
+        });
     });
 </script>
 
@@ -595,16 +635,25 @@
         <div id="div_content">
             <div id="div_shouye"></div>
             <div id="div_wengaoguanli"></div>
+            <%
+                //如果有管理权限
+                if(quanxian!=null){
+                    if (!quanxian.equals("0")&&!quanxian.equals("1")){
+            %>
             <div id="div_guali"></div>
             <%
+                    }
+                }
                 if(quanxian!=null&&!quanxian.equals("")){
             %>
+            <a href="../xinxiweihu/xinxiweihu.jsp">
             <div id="wo">
                 <%
                     out.print(xingming);
                 %>
             </div>
             <div id="man"></div>
+            </a>
             <%
                 }
             %>
@@ -625,6 +674,7 @@
 </div>
 <%
     //提案列表打印
+    if(sousuo==null){
     //没有提案
     javabean bean=new javabean();
     bean.connect();
@@ -647,9 +697,45 @@
                 out.print(resultSet.getString("zhuangtai"));
             %>
         </div>
-        <div class="shangchuanzhe1">id:100</div>
-        <div class="shangchuanzhe1">复议数:0</div>
-        <div class="shangchuanzhe1">反对数:100</div>
+        <div class="shangchuanzhe1">id:<%
+            out.print(resultSet.getString("id"));
+        %></div>
+        <div class="shangchuanzhe1">复议数:<%
+            //复议数
+            String tian_id=resultSet.getString("id");
+            if (tian_id!=null){
+                if(!tian_id.equals("")){
+                    javabean bean1=new javabean();
+                    bean1.connect();
+                    ResultSet resultSet1=bean1.getFuyiCount(tian_id);
+                    if(resultSet1!=null){
+                        resultSet1.last();
+                        if(resultSet1.getRow()!=0){
+                            out.print(resultSet1.getString("COUNT(*)"));
+                        }
+                    }
+                    resultSet1.close();
+                    bean1.closeDatabase();
+                }
+            }
+        %></div>
+        <div class="shangchuanzhe1">反对数:<%
+            if (tian_id!=null){
+                if(!tian_id.equals("")){
+                    javabean bean1=new javabean();
+                    bean1.connect();
+                    ResultSet resultSet1=bean1.getfanduiCount(tian_id);
+                    if(resultSet1!=null){
+                        resultSet1.last();
+                        if(resultSet1.getRow()!=0){
+                            out.print(resultSet1.getString("COUNT(*)"));
+                        }
+                    }
+                    resultSet1.close();
+                    bean1.closeDatabase();
+                }
+            }
+        %></div>
         <div class="div_shijian">
             <%
                 out.print(resultSet.getString("riqi"));
@@ -671,12 +757,99 @@
         }
 
     }
+    }else {
+        /////搜索的开头
+            //没有提案
+            javabean bean=new javabean();
+            bean.connect();
+            ResultSet resultSet=bean.sousuoTian(sousuo);
+            if(resultSet==null){
+                out.print("<h1>提取提案错误，稍后重试</h1>");
+            }else
+            {
+                while (resultSet.next()){
+%>
+<div class="div_content">
+    <div class="div_head">
+        <div class="shangchuanzhe">
+            <%
+                out.print(resultSet.getString("zuozhe"));
+            %>
+        </div>
+        <div class="shangchuanzhe1">
+            <%
+                out.print(resultSet.getString("zhuangtai"));
+            %>
+        </div>
+        <div class="shangchuanzhe1">id:<%
+            out.print(resultSet.getString("id"));
+        %></div>
+        <div class="shangchuanzhe1">复议数:<%
+            //复议数
+            String tian_id=resultSet.getString("id");
+            if (tian_id!=null){
+                if(!tian_id.equals("")){
+                    javabean bean1=new javabean();
+                    bean1.connect();
+                    ResultSet resultSet1=bean1.getFuyiCount(tian_id);
+                    if(resultSet1!=null){
+                        resultSet1.last();
+                        if(resultSet1.getRow()!=0){
+                            out.print(resultSet1.getString("COUNT(*)"));
+                        }
+                    }
+                    resultSet1.close();
+                    bean1.closeDatabase();
+                }
+            }
+        %></div>
+        <div class="shangchuanzhe1">反对数:<%
+            if (tian_id!=null){
+                if(!tian_id.equals("")){
+                    javabean bean1=new javabean();
+                    bean1.connect();
+                    ResultSet resultSet1=bean1.getfanduiCount(tian_id);
+                    if(resultSet1!=null){
+                        resultSet1.last();
+                        if(resultSet1.getRow()!=0){
+                            out.print(resultSet1.getString("COUNT(*)"));
+                        }
+                    }
+                    resultSet1.close();
+                    bean1.closeDatabase();
+                }
+            }
+        %></div>
+        <div class="div_shijian">
+            <%
+                out.print(resultSet.getString("riqi"));
+            %>
+        </div>
+        <div class="biaoti">
+            <%
+                out.print(resultSet.getString("biaoti"));
+            %>
+        </div>
+        <a href="../xiangqing/xiangqing.jsp?tian_id=<%
+        out.print(resultSet.getString("id"));
+        %>">
+            <div class="xiangqing"></div>
+        </a>
+    </div>
+</div>
+<%
+            }
+
+        }
+        }
 
 %>
+<%--
 <div id="div_bottum">
     <div class="div_y2" style="color: #ffffff;background-color: #36abe7;margin-left: 0px">上一页</div>
     <div class="div_y1">1</div>
 </div>
+--%>
 </body>
 
 </html>

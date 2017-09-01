@@ -18,4 +18,7 @@
   SimpleDateFormat dateFormater = new SimpleDateFormat("yyyy-MM-dd");
   Date date=new Date();
   out.print(dateFormater.format(date));
+
+  String search=request.getParameter("search");
+  out.print("<h1>"+search+"</h1>");
 %>

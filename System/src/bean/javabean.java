@@ -14,7 +14,7 @@ public class javabean {
     private int Count;
     private ResultSet resultSet=null;
     private PreparedStatement preparedStatement=null;
-    static final private String url="jdbc:mysql://192.168.1.104:3306/lurenwei";
+    static final private String url="jdbc:mysql://10.18.19.166:3306/lurenwei";
     static final private String user="root";
     static final private String password="1234";
     private Statement statement;
@@ -22,6 +22,44 @@ public class javabean {
     public int getCount() {
         return Count;
     }
+
+
+
+    //用户信息修改
+    public boolean setYonghu(String danwei,String zhicheng,String dianhua,String youxiang,String jiatingzhuzhi,String weixin,String zhiwu,String name){
+        try {
+            preparedStatement=con.prepareStatement("UPDATE yonghu SET danwei=?,zhicheng=?,lianxifangshi=?,youxiang=?,jiatingzhuzhi=?,weixin=?,zhiwu=? WHERE xingming=?");
+            preparedStatement.setString(1,danwei);
+            preparedStatement.setString(2,zhicheng);
+            preparedStatement.setString(3,dianhua);
+            preparedStatement.setString(4,youxiang);
+            preparedStatement.setString(5,jiatingzhuzhi);
+            preparedStatement.setString(6,weixin);
+            preparedStatement.setString(7,zhiwu);
+            preparedStatement.setString(8,name);
+            preparedStatement.executeUpdate();
+            preparedStatement.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+            System.out.print("sql错误");
+            return false;
+        }
+        return true;
+    }
+
+
+
+
+
+
+
+    //未审核用户提取
+
+
+
+
+
+
 
     //插入复议
     public boolean insertFuyi(String tian_id,String xingming){
@@ -266,7 +304,27 @@ public class javabean {
         return true;
     }
 
-    //获取所有提案,时间排列
+
+    //搜索提案
+    public ResultSet sousuoTian(String name){
+        try {
+            preparedStatement=con.prepareStatement("SELECT * FROM tian WHERE biaoti LIKE ?");
+            preparedStatement.setString(1,"%"+name+"%");
+            resultSet=preparedStatement.executeQuery();
+        } catch (SQLException e) {
+            e.printStackTrace();
+            System.out.print("sql错误");
+            return null;
+        }
+        return resultSet;
+    }
+
+
+
+
+
+
+    //获取所有提案
     public ResultSet getTianSuoyou(){
         try {
             preparedStatement=con.prepareStatement("SELECT * FROM tian");

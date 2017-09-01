@@ -31,7 +31,7 @@
     Cookie[] cookie=request.getCookies();
     if (cookie==null){
         //测试
-        out.print("<h1>cookie=null</h1>");
+        //out.print("<h1>cookie=null</h1>");
         hash="";
     }
     else {
@@ -43,13 +43,13 @@
         }
         if (hash == null) {
             //测试
-            out.print("<h1>取不到hash</h1>");
+            //out.print("<h1>取不到hash</h1>");
             response.sendRedirect("../index/index.jsp");
             return;
         }
         //测试
         if (hash != null) {
-            out.print("<h1>hash=" + hash + "</h1>");
+           // out.print("<h1>hash=" + hash + "</h1>");
         }
     }
 
@@ -127,9 +127,9 @@
     String msg=request.getParameter("msg");
     String tian_id=request.getParameter("tian_id");
     String tian=null;
-    out.print("<h1>标题："+biaoti+"</h1>");
-    out.print("<h1>内容："+neirong+"</h1>");
-    out.print("<h1>msg="+msg+"</h1>");
+    //out.print("<h1>标题："+biaoti+"</h1>");
+    //out.print("<h1>内容："+neirong+"</h1>");
+    //out.print("<h1>msg="+msg+"</h1>");
     if(biaoti==null){
         biaoti="";
     }
@@ -160,6 +160,7 @@
     if (tian_id!=null){
         if (tian_id.equals("")){
             response.sendRedirect("../tian/tian.jsp");
+            return;
         }
         javabean bean=new javabean();
         bean.connect();
@@ -171,7 +172,6 @@
         resultSet.last();
         if(resultSet.getRow()==0){
             response.sendRedirect("../index/index.jsp");
-            bean.closeDatabase();
             return;
         }
         tian="1";
@@ -203,7 +203,7 @@
                     bean.insertPinglun(xingming,tian_id,pinglun);
                     bean.closeDatabase();
                     //测试
-                    out.print("<h1>评论成功</h1>");
+                    //out.print("<h1>评论成功</h1>");
                 }
             }
         }
@@ -829,6 +829,17 @@
         $("#div_shouye").click(function () {
             location.href="../index/index.jsp";
         });
+
+
+
+        //搜索
+        $("#sousuo").click(function(){
+            if($("input[name='sousuo']").val()==""){
+                alert("搜索不能为空");
+            }else {
+                location.href="../index/index.jsp?sousuo="+$("input[name='sousuo']").val();
+            }
+        });
     });
 </script>
 
@@ -840,8 +851,16 @@
         <div id="div_content">
             <div id="div_shouye"></div>
             <div id="div_wengaoguanli"></div>
-            <div id="wo">诡辩师</div>
+            <a href="../xinxiweihu/xinxiweihu.jsp">
+            <div id="wo"><%
+                if(xingming!=null){
+                    if(!xingming.equals("")){
+                        out.print(xingming);
+                    }
+                }
+            %></div>
             <div id="man"></div>
+            </a>
         </div>
     </div>
 </div>

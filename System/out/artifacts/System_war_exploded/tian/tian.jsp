@@ -27,7 +27,7 @@
     if (cookie==null){
         response.sendRedirect("../index/index.jsp");
         //测试
-        out.print("<h1>cookie=null</h1>");
+        //out.print("<h1>cookie=null</h1>");
         hash="";
         return;
     }
@@ -40,13 +40,13 @@
         }
         if (hash == null) {
             //测试
-            out.print("<h1>取不到hash</h1>");
+            //out.print("<h1>取不到hash</h1>");
             response.sendRedirect("../index/index.jsp");
             return;
         }
         //测试
         if (hash != null) {
-            out.print("<h1>hash=" + hash + "</h1>");
+            //out.print("<h1>hash=" + hash + "</h1>");
         }
     }
 
@@ -405,6 +405,13 @@
             text-align: center;
             color: white;
         }
+        #div_guali {
+            height: 47px;
+            width: 101px;
+            margin-left: 1px;
+            float: left;
+            background-image:url(image/guanli_001.jpg);
+        }
     </style>
 </head>
 
@@ -511,6 +518,17 @@
         $(".chexiao").mouseleave(function () {
             $(this).css("background-color","#37abe7");
         });
+
+
+
+        //搜索
+        $("#sousuo").click(function(){
+            if($("input[name='sousuo']").val()==""){
+                alert("搜索不能为空");
+            }else {
+                location.href="../index/index.jsp?sousuo="+$("input[name='sousuo']").val();
+            }
+        });
     });
 
 </script>
@@ -522,12 +540,14 @@
         <div id="div_content">
             <div id="div_shouye"></div>
             <div id="div_wengaoguanli"></div>
+            <a href="../xinxiweihu/xinxiweihu.jsp">
             <div id="wo">
                 <%
                     out.print(xingming);
                 %>
             </div>
             <div id="man"></div>
+            </a>
         </div>
     </div>
 </div>
