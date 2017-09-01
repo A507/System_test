@@ -17,23 +17,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.46" level="application_server_libraries" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../../jar/commons-codec-1.10" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="file://$MODULE_DIR$/../../../jar/commons-codec-1.10/apidocs" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../../../jar/commons-codec-1.10" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../../jar/commons-codec-1.10" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../../../jar/commons-codec-1.10" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
   </component>
 </module>
