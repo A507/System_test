@@ -236,7 +236,7 @@
             margin-top: 7px;
             float: right;
             border-radius: 8px;
-            background-color: grey;
+            background-color: #29ace2;
             font-family: "黑体";
             font-size: 20px;
             line-height: 39px;
@@ -292,19 +292,47 @@
             text-align: center;
             color: white;
         }
+         #div_guali {
+            height: 47px;
+            width: 101px;
+            margin-left: 1px;
+            float: left;
+            background-image:url(image/guanli1_001.jpg);
+        }
     </style>
 </head>
 
 <body>
+    <script type="text/javascript">
+        $(function(){
+            //变色动画
+            $(".xuanze").mouseenter(function(){
+                $(this).css("background-color","rgba(54,130,169,1)")
+            });
+            $(".xuanze").mouseleave(function(){
+                $(this).css("background-color","#37abe7")
+            });
+            
+            
+            //变色动画
+            $(".bianse").mouseenter(function(){
+                $(this).css("background-color","rgba(54,130,169,1)")
+            });
+            $(".bianse").mouseleave(function(){
+                $(this).css("background-color","#37abe7")
+            });
+        });
+    </script>
 
     <div id="div_header">
         <div id="div_img">
-            <div id="div_zhuxiao">注销</div>
+            <div id="div_zhuxiao" class="bianse">注销</div>
             <div id="sousuo"></div>
             <input type="text" name="sousuo" id="input_sousuo" />
             <div id="div_content">
                 <div id="div_shouye"></div>
                 <div id="div_wengaoguanli"></div>
+                <div id="div_guali"></div>
                 <div id="wo">诡辩师</div>
                 <div id="man"></div>
             </div>
@@ -325,11 +353,9 @@
             <div class="shangchuanzhe">提案人</div>
             <div class="shangchuanzhe1">id:100</div>
             <div class="biaoti">这个是标题</div>
-            <div class="xuanze">未选择</div>
+            <div class="xuanze">推荐</div>
+            <div class="xuanze">详情</div>
         </div>
-    </div>
-    <div class="content_guanli2">
-        <div id="tongyi">推荐</div>
     </div>
 </body>
 

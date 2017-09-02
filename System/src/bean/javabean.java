@@ -14,7 +14,7 @@ public class javabean {
     private int Count;
     private ResultSet resultSet=null;
     private PreparedStatement preparedStatement=null;
-    static final private String url="jdbc:mysql://10.18.19.166:3306/lurenwei";
+    static final private String url="jdbc:mysql://192.168.1.106:3306/lurenwei";
     static final private String user="root";
     static final private String password="1234";
     private Statement statement;

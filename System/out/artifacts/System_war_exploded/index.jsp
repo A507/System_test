@@ -2,6 +2,7 @@
 <%@ page import="java.util.Date" %>
 <%@ page import="java.time.LocalTime" %>
 <%@page import="java.text.*" %>
+<%@ page import="hash.Hash" %>
 <%--
   Created by IntelliJ IDEA.
   User: 卢人玮
@@ -15,10 +16,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%
-  SimpleDateFormat dateFormater = new SimpleDateFormat("yyyy-MM-dd");
-  Date date=new Date();
-  out.print(dateFormater.format(date));
 
-  String search=request.getParameter("search");
-  out.print("<h1>"+search+"</h1>");
+
+  //测试
+
+  Hash hash=new Hash();
+  out.print(hash.getHash());
 %>
