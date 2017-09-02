@@ -418,6 +418,20 @@
 <body>
 <script type="text/javascript">
     $(function() {
+        <%
+        //提示，超出最大未审核数
+        String msg=request.getParameter("msg");
+        if(msg!=null){
+            if (msg.equals("9")){
+                %>
+        alert("已超出最大未审核数量");
+        <%
+            }
+        }
+        %>
+
+
+
         $("#div_zhuce").mouseenter(function() {
             $("#div_zhuce").css("background-image", "url(image/zhuce2_001.jpg)");
         });

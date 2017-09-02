@@ -183,8 +183,20 @@
     else if(msg.equals("1")){
         javabean bean=new javabean();
         bean.connect();
-        if(!bean.insertTian(biaoti,neirong,xingming,"未审核")){
-            out.print("<h1>插入服务器错误，请稍后重试</h1>");
+        String count=bean.getTianShuLiang(xingming);
+        //测试
+        out.print("<h1>count="+count+"</h1>");
+        if(count==null){
+            response.sendRedirect("../tian/tian.jsp");
+            return;
+        }
+        else if (Integer.valueOf(count)>=3){
+            response.sendRedirect("../tian/tian.jsp?msg=9");
+            return;
+        }else {
+            if (!bean.insertTian(biaoti, neirong, xingming, "未审核")) {
+                out.print("<h1>插入服务器错误，请稍后重试</h1>");
+            }
         }
         bean.closeDatabase();
     }

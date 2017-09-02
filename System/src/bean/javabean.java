@@ -25,6 +25,35 @@ public class javabean {
 
 
 
+    //获取提案数量
+    public String getTianShuLiang(String xingming){
+        String count=null;
+        int count2=0;
+        try {
+            preparedStatement=con.prepareStatement("SELECT * FROM tian WHERE zuozhe=?");
+            preparedStatement.setString(1,xingming);
+            resultSet=preparedStatement.executeQuery();
+            resultSet.last();
+            int j=resultSet.getRow();
+            if(j!=0){
+                resultSet.first();
+                for(int i=0;i<j;i++){
+                    if(resultSet.getString("zhuangtai").equals("未审核")){
+                        count2++;
+                    }
+                    resultSet.next();
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            System.out.print("sql语句错误");
+            return null;
+        }
+        return Integer.toString(count2);
+    }
+
+
+
     //用户信息修改
     public boolean setYonghu(String danwei,String zhicheng,String dianhua,String youxiang,String jiatingzhuzhi,String weixin,String zhiwu,String name){
         try {
